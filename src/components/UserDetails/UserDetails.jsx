@@ -6,6 +6,7 @@ const UserDetails = () => {
   const {name,website} = user;
   return (
     <div>
+      <h1>About</h1>
       <h2>Details About User: {name}</h2>
       <p>Visit us: {website} </p>
     </div>
